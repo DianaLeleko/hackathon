@@ -12,7 +12,7 @@ html, body {
 body {
   max-width: 100%;
   overflow-x: hidden;
-  padding-top: 0px;
+  padding-top: 75px;
 }
 
 /* === FONT === */
@@ -38,33 +38,31 @@ body {
 }
 
 /* === HEADER === */
-.header-new {
+.header {
   width: 100%;
-  height: 400px;
-  background-image: url(фон2.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  height: 75px;
+  background-color: #261374;
   display: flex;
   align-items: center;
-  justify-content: center;
-  flex-direction: column;
+  justify-content: space-between;
   box-sizing: border-box;
-  position: relative;
+  position: fixed;
+  top: 0;
+  left: 0;
   z-index: 1000;
-  padding: 20px;
+  padding: 0 20px;
 }
 
-.main-title {
-  font-family: "Press Start 2P", system-ui;
-  font-weight: 400;
-  font-style: normal;
-  color: white;
-  font-size: 80px;
-  line-height: 90px;
-  margin: 0;
-  text-align: center;
-  text-shadow: 0px 5px 8px rgba(0, 0, 0, 0.7);
+.header-logo {
+  height: 55px;
+  width: 184px;
+  flex-shrink: 0;
+  margin-right: 20px;
+}
+
+.eniac {
+  height: 55px;
+  width: auto;
 }
 
 .navdiv{
@@ -493,16 +491,7 @@ body {
   }
 @media (max-width: 768px) {
   body {
-    padding-top: 0px;
-  }
-  
-  .header-new {
-    height: 250px;
-  }
-  
-  .main-title {
-    font-size: 30px;
-    line-height: 40px;
+    padding-top: 60px;
   }
 .navdiv {
   position: fixed;
@@ -527,7 +516,7 @@ body {
     flex-direction: column;
   flex-wrap: wrap;
   }
-
+  
   .menu-link{
     font-size: 20px;
   }
@@ -575,8 +564,18 @@ body {
   top: 50%;
   transform: translate(-50%, 0%) rotate(-45deg);
 }
-
   
+  .header {
+    height: 60px;
+  }
+
+  .header-logo {
+    height: 40px;
+  }
+
+  .eniac {
+    height: 40px;
+  }
 
   h1 {
     font-size: 30px;
@@ -589,7 +588,7 @@ body {
     line-height: 55px;
     padding: 10px 5px;
  }
-
+  
   .intro1, .intro2, .intro {
     height: 220px; /* зменшено з 320px */
     padding-top: 15px;
@@ -653,7 +652,7 @@ body {
     max-width: 450px;
   }
 
-
+ 
   .pprod {
     margin: 0px 25px 25px 25px;
   }
