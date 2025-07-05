@@ -95,7 +95,7 @@ body {
 
 
 /* === INTRO SECTIONS === */
-.intro1, .intro2, .intro {
+ .intro2{
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -104,13 +104,6 @@ body {
   height: 450px;
 }
 
-.intro1 {
-  background-image: url(юліфон.jpg);
-}
-
-.intro {
-  background-image: url(лілінфон.webp);
-}
 .intro2 {
   background-image: url(фон2.jpg);
 }
