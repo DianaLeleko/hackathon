@@ -289,7 +289,7 @@ a {
 */
 .card.card-educational img {
   width: 100%;
-  height: 180px;  /* фіксована висота для однакового вигляду */
+  height: 180px;  фіксована висота для однакового вигляду */
   object-fit: cover;
   border-radius: 15px;
   box-shadow: 2px 2px 8px rgba(90, 0, 102, 0.5); 
@@ -406,7 +406,7 @@ img.fullscreen-image {
 }
 
 .footer-column h3 {
-  color: white;
+  color: #fff;
   font-family: "Tektur", sans-serif;
   font-size: 16px;
   font-weight: 600;
@@ -415,7 +415,7 @@ img.fullscreen-image {
 }
 
 .footer-column p {
-  color: white;
+  color: #fff;
   font-family: "Comic Sans MS", cursive;
   font-size: 12px;
   line-height: 1.3;
@@ -433,7 +433,7 @@ img.fullscreen-image {
 }
 
 .footer-column a:hover {
-  color: white;
+  color: #ffffff;
   text-decoration: underline;
 }
 
@@ -516,7 +516,7 @@ body {
     flex-direction: column;
   flex-wrap: wrap;
   }
-
+  
   .menu-link{
     font-size: 20px;
   }
@@ -564,7 +564,7 @@ body {
   top: 50%;
   transform: translate(-50%, 0%) rotate(-45deg);
 }
-
+  
   .header {
     height: 60px;
   }
@@ -588,7 +588,7 @@ body {
     line-height: 55px;
     padding: 10px 5px;
  }
-
+  
   .intro1, .intro2, .intro {
     height: 220px; /* зменшено з 320px */
     padding-top: 15px;
@@ -652,7 +652,7 @@ body {
     max-width: 450px;
   }
 
-
+ 
   .pprod {
     margin: 0px 25px 25px 25px;
   }
